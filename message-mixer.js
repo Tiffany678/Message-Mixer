@@ -1,7 +1,7 @@
-//import a module from encryptors.js and extract three encryption methods from encryptors.
+//import a module from encryptors.js and extract three encryption methods
 const encryptors = require("./encryptors.js");
 
-//extract value and store them in variables.
+//extract value and store them each in variables.
 const caesarCipher=encryptors.caesarCipher;
 const symbolCipher=encryptors.symbolCipher;
 const reverseCipher=encryptors.reverseCipher;
