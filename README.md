@@ -34,5 +34,3 @@ The code for displaying the output back to the user.
 Message Mixer Inc. now wants to join the open-source community by packaging its encryption functions in a module and allowing other developers to import these encryption functions into their own projects.
 
 In this project, you will help Message Mixer Inc. extract and isolate its encryption functions into a module, called encryptors.js, and then refactor message-mixer.js to use this module’s functions.
-
-Before you begin, try running the commands listed above in the terminal. Then, familiarize yourself with how the program works by examining the three files in the file directory, focusing on message-mixer.js. At the top of this file you will find the three encryption cipher functions. Towards the bottom of the file, you will find some code that uses the process.argv, process.stdin, process.stdout environment variables to determine which encryp
